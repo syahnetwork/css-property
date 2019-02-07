@@ -1,0 +1,43 @@
+.kotak {
+  position: relative;
+  right: 0;
+  background-color: orange;
+}
+
+/* position jika dikomen sama dengan position:static */
+/* position relative adalah posisi relatif dari posisi static sebelumnya */
+
+.belajar2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  background-color: blue;
+}
+
+div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+/* margin default tag p 16px */
+/* lihat margin padding f12 , inspect chrome  */
+/* position absolute posisinya relatif terhadap pembungkus/parent */
+/*  */
+/* position sticky berfungsi setelah discroll akan terlihat hasilnya */
+/* position static ga bisa ditambahkan properti left top right bottom */
+
+.fix {
+  background-color: green;
+  position: fixed;
+  top: 40px;
+  left:80px;
+
+}
+
+.stic {
+  background-color: pink;
+  position: sticky;
+  top: 40px;
+}

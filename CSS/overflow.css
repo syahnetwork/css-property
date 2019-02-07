@@ -1,0 +1,8 @@
+p {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  overflow: auto;
+}
+/* perbedaan scroll dan auto scroll vertical and horizontal scroll add */
+/* sedangkan auto cuma memberikan overflow yang dibutuhkan saja */

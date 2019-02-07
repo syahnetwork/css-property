@@ -1,0 +1,10 @@
+.img-description {
+  height: 150px;
+  width: 150px;
+  float: none;
+}
+/* float none digunakan jika elemen sebelumnya ada float  */
+
+h1 {
+  display: inline-block;
+}
